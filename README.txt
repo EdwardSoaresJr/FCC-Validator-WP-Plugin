@@ -1,3 +1,5 @@
+This is the Wordpress plugin that uses the Laravel API to check users for active GMRS licenses. Sets the wordpress user to Subscriber from Not Verified using Members plugin by member press on the backend.
+
 === Plugin Name ===
 Contributors: (this should be a list of wordpress.org userid's)
 Donate link: https://theauthorurl
