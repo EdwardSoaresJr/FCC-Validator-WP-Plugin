@@ -5,6 +5,8 @@ It checks a users FRN against the API endpoint for an active license. To make th
 checks when a user logs in and or updates their profile. So we check only when neccessary and it becomes a distributed load instead of routine bulk checks.
 <br>
 Like the Laravel API, this can be and will at some point extended to include at least HAM Radio with more settings such as endpoint URL which will have to be coded inside of this plugin for now to use your own API endpoint.
+<br>
+I am thinking about adding a web scraping function so that if the API has no record we can scrape for the info to immediately authorize new licensees instead of them having to wait.
 
 === Plugin Name ===
 Contributors: (this should be a list of wordpress.org userid's)
