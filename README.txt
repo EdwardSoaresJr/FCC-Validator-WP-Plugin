@@ -3,6 +3,8 @@ If the user does not any longer have an active license then they are moved from 
 There is an admin panel included in this plugin and a member list available to all Subscribers for Check Ins, QSO etc.
 It checks a users FRN against the API endpoint for an active license. To make things easier only active licenses are stored in the API to begin with. To ease server load of most budget hosting it only
 checks when a user logs in and or updates their profile. So we check only when neccessary and it becomes a distributed load instead of routine bulk checks.
+<br>
+Like the Laravel API, this can be and will at some point extended to include at least HAM Radio with more settings such as endpoint URL which will have to be coded inside of this plugin for now to use your own API endpoint.
 
 === Plugin Name ===
 Contributors: (this should be a list of wordpress.org userid's)
