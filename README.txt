@@ -1,4 +1,6 @@
-This is the Wordpress plugin that uses the <a href="https://github.com/EdwardSoaresJr/FCC-Validator-Laravel-API">Laravel API endpoint</a> to check users for active GMRS licenses. Sets the wordpress user to Subscriber from Not Verified using Members plugin by member press on the backend.
+This is the Wordpress plugin that uses the Laravel API endpoint https://github.com/EdwardSoaresJr/FCC-Validator-Laravel-API to check users for active GMRS licenses. Sets the wordpress user to Subscriber from Not Verified using custom roles created using the Members plugin by member press on the backend.
+If the user does not any longer have an active license then they are moved from Subscriber to Not Verified.
+There is an admin panel included in this plugin and a member list available to all Subscribers for Check Ins, QSO etc.
 It checks a users FRN against the API endpoint for an active license. To make things easier only active licenses are stored in the API to begin with. To ease server load of most budget hosting it only
 checks when a user logs in and or updates their profile. So we check only when neccessary and it becomes a distributed load instead of routine bulk checks.
 
