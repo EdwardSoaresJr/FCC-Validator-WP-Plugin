@@ -7,6 +7,8 @@ checks when a user logs in and or updates their profile. So we check only when n
 Like the Laravel API, this can be and will at some point extended to include at least HAM Radio with more settings such as endpoint URL which will have to be coded inside of this plugin for now to use your own API endpoint.
 <br>
 I am thinking about adding a web scraping function so that if the API has no record we can scrape for the info to immediately authorize new licensees instead of them having to wait.
+<br>
+By all means fix and add as much stuff as possible, long time PHP coder, first time writing a wordpress plugin.
 
 === Plugin Name ===
 Contributors: (this should be a list of wordpress.org userid's)
